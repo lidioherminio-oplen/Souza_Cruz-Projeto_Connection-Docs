@@ -1,0 +1,79 @@
+Projeto Connection App:
+=======================
+20/07/2017:
+-----------
+	16 as 16:30 - reunião de Kick-off;
+	
+	Engajamento;
+	
+	Orchesta: Base de dados com as informações de todos os produtores rurais que "plantam" para a Souza Cruz;  
+	Servidor Icaro, responsável T-Ssytem, responsável pelo banco de dados: Teclógica;
+	
+	Login:     Tudo no Onda (servidor usado no Portal do produtor pela Souza Cruz Santa Cruz);
+	
+	Contatos Souza Cruz:
+	Damir Ou Adriano - Requisitos;
+	Gabriel - IT;
+	
+	Todos os orientadores usarão o aplicativo, 
+	na primeira fase, 20 % dos orientadores;
+	App só para ops orientadores;
+	
+	Todos os orientadores estão no orchesta;
+	Estão com a relação de seus produtores? Sim;
+	Cada orientador tem um numero X de produtores que ele atende;
+	
+	VPN com Site-Site;
+	   Precisaremos de dois serviços (webservices):
+		Serviço de autenticação do usuário;
+		  Usando a API;
+		Serviço de consulta de dados do Orquestra;
+		  Do zero;
+		
+	VPN com o Banco
+	
+	Por enquanto Importe e Exporte dos dados;
+		Orientador e seus produtores;  ????
+	Talvez uma tela (PHP) do portal, sem nada, só com a função de importar
+	os dados para uma base e o aplicativo acessa ela (dados do produtor e do orientador)
+	Essa solução talvez seja necessária, pois pode levar alguns meses para a Souza liberar a VPN
+	para acesso direto aos dados;
+	
+	Processo para acesso Online e Offline(Este deve acontecer comfrequência, pois o serviços
+	dos orientadores, muitas vezes são em locais que não possim sinal de internet)
+	
+	1)	Com internet:
+		   Identifica o orientador;
+		   Carrega os seus produtores;
+		   
+	2) 	Sem acesso internet;
+			Carga dos dados para o Smartphone:
+			Informações: 
+			Orientador preenchs os dados e o App realiza os cálculos e gravas as informações por FASE e PRODUTOR;
+			
+	3)	Com internet:
+			Atualiza as informações registradas no Smartphone na base de dados;
+			Só teremos consulta a dados do Orchestra, a atualização dos valores, por exemplo, será em uma base
+			de dados do App, localizada no servidor;
+	
+	Gestão do Usuários será somente pelo Portal do Produtor (já exsite);
+	Mesma base de Login usada pelo Portal produtor;
+		Só vamos consumir o serviço de autenticação de usuário, mais nada;
+
+	Dashboard:
+	Não temos muita coisa definida;
+	Verificar em qual sprint será necessário, acho que não seria no primeiro;
+	"Depois" tem que ver o que e que tipo, tanto no App como no Web Potal;
+		Não podemos deixar eles usarem muito a FICÇÂO para os Dashboards, bem lembrado
+		sobre afirmamos que X desenvolvimento vai implicar nas datas;
+		Dashboard,s simples... e poucos, 1, 2 ou 3...
+	
+	Duvidas:
+	
+		Prototipação:
+		Enviar o quanto antes;	
+		Se possivel já poderíamos levar algum exemplo para a reunião de 4ª feira em Santa Cruz;
+		
+    	Hospedagem para o App e Web Portal - Novo
+		Instalar e configurar um servidor para a BAT - Novo
+			Gabriel vai dar um retorno sobre esta questão
