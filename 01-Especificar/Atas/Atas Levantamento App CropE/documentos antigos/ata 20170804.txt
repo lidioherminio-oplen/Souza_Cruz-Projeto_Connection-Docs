@@ -1,0 +1,16 @@
+
+
+--- As Fases não implementadas se clicar não faz nada, fica na mesma tela
+
+--- Dashboard - alinhamento para entregar após a primeira fase.
+
+--- Entregar um relatorio via query com dados dashboard. excell
+
+--- Menu em todas as telas ficou para 2 sprint
+
+--- API 
+
+--- Glossário - nós vamos fazer. Eles vão mandar os termos Ingles e Espanhol.
+
+--- Como é a mudança da lingua do App,
+

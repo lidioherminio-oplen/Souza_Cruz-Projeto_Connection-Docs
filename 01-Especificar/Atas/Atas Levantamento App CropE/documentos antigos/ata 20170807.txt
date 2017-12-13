@@ -1,0 +1,28 @@
+Fazer: Plano de testes e apresentação e terminar especificação!!!
+
+--- Solicitar um Orientador da Base "quente" para testes (Damir)
+
+Helio Savitski (Orientador de teste) senha do Portal
+
+--- As imagens(layout) podem ficar para depois da 1ª entrega. 
+
+--- Foco na entrega das funcionalidades: Autenticação correta, baixar a base, inserir os dados, fazer os cálculos. 
+subir a base.
+
+--- falta gabriel enviar usuario e senha da loja google play para colocarmos o app na loja. 
+o CropE só vai ser colocado na loja quando for entregue a Fase Canteiro.
+
+--- Para os testes de campo será enviado a versão de instalação por email (apk)
+
+--- Acesso apenas por CPF. a API retorna ok, é orientador.
+ A BASE do CropE vai consultar o CPF e encontrar os dados do Orientador.
+
+--- Glossário (3 linguas a partir de outubro)
+
+--- Plano Testes para Sexta. Fazer.
+
+--- Ícone previsão para quarta.
+
+--- proxima reunião 10:30 - 11:00
+
+--- treinamento dia 14 apartir das 13horas

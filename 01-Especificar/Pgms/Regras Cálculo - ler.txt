@@ -1,0 +1,124 @@
+--- Botão Salvar desabilitado, só habilita quanto alterar algum campo
+
+--- se clicar em voltar a tela anterior com dados alterados sem ter salvado, dar mensagem avisando. (botao cancelar?)
+
+--- se apagar todos os valores e calcular ou salvar (retirar o check do produtor)
+
+combinações de campos preechidos e não preenchidos fica mostrando o sinal de campo obrigatório, mas deixa calcular e salvar
+
+qualquer campo alterado ao clicar no botão salvar/calcular dará a mensagem 'tem certeza que quer alterar 
+as informações do produtor?" (ver flag misto)
+
+se não alterou nenhum campo, ao clicar em calcular/salvar não mostra a mensagem 'tem certeza que quer alterar 
+as informações do produtor?"
+
+
+
+Os documentos Regras CropE Fases Canteiro e Plantio estão compartilhadas no Drive do email
+lidio.freitas@oplen.com.br
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+número plantas por hectare = 16667
+
+
+campo estimativa =((mudas uteis*97%)/número plantas por hectare)*(estimativa/has registrados)
+
+97% => parametro % falhas no plantio
+
+
+campo mudas uteis = soma das mudas uteis das bandejas isopor e plastico
+
+ou seja
+
+mudas uteis bandeja isopor = (nr canteiros * bandeijasporcanteiro) * 190 => parametro mudas uteis por bandeja de isopor
+
+mudas uteis bandeja plastico = (nr canteiros * bandeijasporcanteiro) * 230 => parametro mudas uteis por bandeja de plastico
+
+
+para a reunião do dia 03/08
+controle da senhas invalidas
+duvida calculo
+duvida dados
+histórica
+
+
+
+API
+--- No CropE, vamos usar o ID, Vamos validar o ID digitado e depois vamos chamar a API para validar senha e acesso
+para poder acessar o CropE, com CPF ou email, o API tem que retornar dados do usuario (id, nome, orientador). 
+documentação tem que ser entregue amanhã. 04/08 
+
+Login
+faz o login uma vez e permanece até fazer o sign-off
+Reduzir a logo marca.
+
+Compatibilidade do Celular (ok para ATA)
+--- pendencia do nosso lado, dar retorno para a Souza Cruz
+Todos os celulares que tiverem a versao do androide atualizada até a versão lollipop 
+
+Duvida Calculo
+16667 - Para o Tipo de Tabaco Virginia colocar como parametro. Número de Plantas por Hectare.
+
+ìcone
+A Souza Cruz vai desenvolver um icone e nome, Na ata tu coloca que vamos gerar o ícone, 2 a 3 de exemplo e que eles também vão fazer outros exemplos.
+pois as horas de Designer estão previstas no projeto.
+
+
+Menus
+voltar versão sem as fotos. eles vão mandar as figuras para representar as fases.
+canteiro fundo azul, vão mandar por email 
+
+menu do app em todas as telas e voltar do androide (home, fases, sair) em todas as telas
+(passar para a prox fase devido a dificuldade de desenvolvimento)
+
+tela fase canteiro 
+sai a palavra ( - contrato) Fase Canteiro
+informações contratuais passa para informações de registro
+área registrada passa para área
+botão calcular, calcula e salva
+botao salvar salva e sai da tela
+
+Log do nr de vezes que alterou calcular e salvar com horário
+id orientador, ir produtpr, data, hora, calculos, estimativa resultado
+
+regra negócio
+quando eu tiver um registro na fase seguinte, não posso alterar mais a fase anterior
+
+Alterações
+gerar planilha de dados com o mesmo formato antes da carga em produção. mesmo formato.colunas novas incluidas no final
+
+Análise de Impacto para alterações de dados de última hora.
+
+dúvida dados
+
+Criar Plano de Testes Críticos
+
+plantao no ultimo fim de semana para atender bugs. dia 11. sair a campo um dos analistas da oplen.
+
+Manual formato PowerPoint com as Regras do Negócio para o dia 09-10
+
+Para o dashboard, vocês precisam do Id, não importa o nome... confirmado (sem histótico)
+Dashboard visão do orientadores mostrar lista produtores com % de concluidos
+
